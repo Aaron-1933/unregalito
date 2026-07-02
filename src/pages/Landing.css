@@ -1,25 +1,47 @@
 .hero {
-  background-color: #1e3ac4;   /* el azul del rectángulo */
-  min-height: 100vh;           /* que ocupe toda la altura de la pantalla */
-  padding: 80px 60px;          /* espacio interno: separa el texto de los bordes */
+  background-color: #1e3ac4;
+  min-height: 100vh;
+  padding: 40px 60px;
   box-sizing: border-box;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 25%, 0% 100%);
 }
 
 .hero-content {
-  max-width: 400px;            /* limita el ancho del texto para que no se estire */
+  max-width: 500px;       
+  margin-top: 100px;
+  
+}
+
+.hero p {
+  color: white;
+  text-align: start;
 }
 
 .hero h1 {
-  color: #3ec6ff;              /* el turquesa del título */
+  color: #3ec6ff;
   font-size: 42px;
   font-weight: 800;
   margin-bottom: 16px;
 }
 
-.hero {
-  background-color: #2b4beb;
-  min-height: 100vh;
-  padding: 80px 60px;
-  box-sizing: border-box;
-  clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.landing {
+  position: relative;
+}
+
+.landing-img {
+  position: absolute;
+  right: 300px;
+  bottom: 200px;
+  width: 600px;  
+}
+
+ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
 }
