@@ -34,6 +34,18 @@ export default function Landing() {
         </div>
       </div>
       <img src={iconBag} className="landing-img" alt="Regalos" />
+      <section className="catalog">
+        <h2>Catalogo de Productos</h2>
+        <p>Recuerda pedir obsequios con conciencia y de manera estrategica</p>
+        <div className="cards">
+          <article className="card">
+            {/* Aquí adentro pones lo que quieras que muestre: */}
+            <img src="..." alt="..." />
+            <h3>Nombre del producto</h3>
+            <p>$299</p>
+          </article>
+        </div>
+      </section>
     </div>
   );
 }

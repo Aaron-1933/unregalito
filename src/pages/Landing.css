@@ -1,5 +1,5 @@
 .hero {
-  background-color: #1e3ac4;
+  background-color: #001ca7c2;
   min-height: 100vh;
   padding: 40px 60px;
   box-sizing: border-box;
@@ -44,4 +44,8 @@ ul {
   display: flex;
   gap: 25px;
   list-style: none;
+}
+
+.catalog {
+  
 }

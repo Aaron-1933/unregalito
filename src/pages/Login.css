@@ -21,10 +21,11 @@ body {
   max-width: 500px;
   margin: 0 auto;
 }
-.login-logo,
-h2,
-p,
-button {
+
+.login-container h2,
+.login-container p,
+.login-container button,
+.login-logo {
   text-align: center;
 }
 
