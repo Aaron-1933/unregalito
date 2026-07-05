@@ -36,7 +36,7 @@
 .landing-img {
   position: absolute;
   right: 300px;
-  bottom: 350px;
+  bottom: 1300px;
   width: 600px;  
 }
 
@@ -46,6 +46,21 @@ ul {
   list-style: none;
 }
 
+span{
+  font-weight:bold;
+  color: #3ec6ff;
+}
+
 .catalog {
-  
+  /* border: solid red 2px; */
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  padding: 100px;
+}
+
+.cards {
+  display: flex;
+  gap: 100px;
+  margin: 100px;
 }

@@ -1,0 +1,23 @@
+.card {
+  background-color: #ffffff;      /* fondo blanco */
+  border-radius: 12px;            /* esquinas redondeadas */
+  padding: 16px;                  /* aire interno */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);   /* sombra = efecto flotante */
+  width: 220px;                   /* ancho de la card */
+}
+
+.card img {
+  width: 100%;                    /* la imagen llena el ancho de la card */
+  border-radius: 8px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 12px 0 4px;
+  color: #002fff;
+}
+
+.card p {
+  color: #010413;                 /* precio en azul */
+  font-weight: bold;
+}
